@@ -5,5 +5,5 @@ describe('user login', () => {
     cy.xpath('//input[@name="password"]').type('Sarajevo.123!')
     cy.xpath('//button[text()="Login"]').click()
     cy.xpath('//p[text()="Welcome to"]').should('be.visible')
-  })
+  }) 
 })
